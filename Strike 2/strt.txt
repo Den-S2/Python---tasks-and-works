@@ -1,0 +1,4 @@
+Num1 = 5, Num2 = 3 Rectangle S = 15
+Num1 = 5, Num2 = 3 Right triangle S = 7.5
+Num1 = 10 Circle S = 314.0
+Num1 = 5, Num2 = 3, Num3 = 5 Trapecia S = 20.0

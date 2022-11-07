@@ -1,0 +1,8 @@
+
+[{'name': 'Nat', 'age': 35}]
+[{'id': 2, 'name': 'Nat', 'age': 35, 'city': 'kanada', 'country': 'dw'}]
+[{'id': 2, 'name': 'Nat', 'age': 35, 'city': 'kanada', 'country': 'dw'}]
+[{'name': 'Nat', 'age': 35}]
+[{'name': 'Nat', 'city': 'kanada'}]
+[{'name': 'Nat', 'country': 'dw'}]
+[{'id': 2, 'name': 'Nat', 'age': 35, 'city': 'kanada', 'country': 'US'}, {'id': 3, 'name': 'Adam', 'age': 22, 'city': 'kanada', 'country': 'US'}]
