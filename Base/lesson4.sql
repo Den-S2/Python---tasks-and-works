@@ -1,0 +1,20 @@
+-- create database Sales; use Sales;
+-- create table `Sales` (id int auto_increment, Namsale nvarchar(100), Summas double, primary key(id));
+-- insert into `Sales` (Namsale, Summas) values ('NameselA', '10101.20')
+-- insert into `Sales` (Namsale, Summas) values ('NameselB', '21551.45')
+-- insert into `Sales` (Namsale, Summas) values ('NameselC', '15013.75')
+-- insert into `Sales` (Namsale, Summas) values ('NameselC', '18013.75')
+-- create table `Salesman` (id int auto_increment, Namman nvarchar(100), Informan nvarchar(100), primary key(id));
+create table `Salesman3` (id int auto_increment, Namman nvarchar(100), Informan nvarchar(100), primary key(id));
+-- insert into `Salesman` (Namman, Informan) values ('Antony', 'sale bar')
+-- insert into `Salesman` (Namman, Informan) values ('Dakota', 'sale car')
+-- insert into `Salesman` (Namman, Informan) values ('Ebony', 'sale bullet')
+-- create table `Customer` (id int auto_increment, Namcus nvarchar(100), Inforcus nvarchar(100), Summas1 double, primary key(id));
+-- insert into `Customer` (Namcus, Inforcus, Summas1) values ('Jottoro', 'buy casino', '10032.152')
+-- insert into `Customer` (Namcus, Inforcus, Summas1) values ('Jeysus', 'buy royal', '15351.153')
+-- insert into `Customer` (Namcus, Inforcus, Summas1) values ('Jeysus', 'buy brand - Garage', '35351.153')
+-- insert into `Customer` (Namcus, Inforcus, Summas1) values ('Jester', 'buy hole', '51313.486')
+-- drop table Customer
+ -- select max(Summas) from sales where Namsale = 'NameselC' 
+-- SELECT avg(Summas1) FROM Customer where Namcus = 'Jeysus'
+-- UPDATE `Customer` SET Inforcus = 'buy bear' WHERE id = 4

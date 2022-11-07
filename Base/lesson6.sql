@@ -1,0 +1,19 @@
+-- create database Messanger; use Messanger;
+-- create table `Auth` (id int auto_increment, Login nvarchar(100), Passwd nvarchar(100), primary key(id));
+-- insert into `Auth` (Login, Passwd) values ('Asergood', 'aass23ss2')
+-- insert into `Auth` (Login, Passwd) values ('Byend', 'dada24wd3')
+-- insert into `Auth` (Login, Passwd) values ('Lotus', 'nene45ad2')
+-- insert into `Auth` (Login, Passwd) values ('Dekarshow', 'atac43er4')
+-- create table `User` (id int auto_increment, Nameuser nvarchar(100), Surnauser nvarchar(100), Elnauser nvarchar(100), Infouser nvarchar(100), primary key(id)); 
+-- insert into `User` (Nameuser, Surnauser, Elnauser, Infouser) values ('Samantus', 'Jager', 'Juck', 'fly on dron')
+-- insert into `User` (Nameuser, Surnauser, Elnauser, Infouser) values ('Samuel', 'Rodrigues', 'Antony',  'Jetstream Sam')
+-- insert into `User` (Nameuser, Surnauser, Elnauser, Infouser) values ('Sandy', 'Baffuvaly', 'Corg', 'Love watch cinema')
+-- create table `Friend` (id int auto_increment, Namefrie nvarchar(100), Linkad nvarchar(100), Dateadd date, primary key(id)); 
+-- insert into `Friend` (Namefrie, Linkad, Dateadd) values ('Torry', 'Samantus', '2022-09-10')
+-- insert into `Friend` (Namefrie, Linkad, Dateadd) values ('Lucy', 'Samuel', '2022-11-01')
+--  insert into `Friend` (Namefrie, Linkad, Dateadd) values ('Santy', 'Sandy', '2022-08-02')
+-- create table `Publish` (id int auto_increment, Linkpub nvarchar(100), Infopub nvarchar(100), primary key(id)); 
+-- insert into `Publish` (Linkpub, Infopub) values ('Samantus', 'live stream TV')
+-- insert into `Publish` (Linkpub, Infopub) values ('Samuel', 'Fight on street')
+-- insert into `Publish` (Linkpub, Infopub) values ('Sandy', 'random pool')
+ select Namefrie, count(Namefrie) from `Friend` where Linkad = 'Samuel'
