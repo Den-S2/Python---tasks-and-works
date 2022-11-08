@@ -12,13 +12,17 @@
 -- insert into `Friend` (Namefrie, Linkad, Dateadd) values ('Torry', 'Samantus', '2022-09-10')
 -- insert into `Friend` (Namefrie, Linkad, Dateadd) values ('Lucy', 'Samuel', '2022-11-01')
 --  insert into `Friend` (Namefrie, Linkad, Dateadd) values ('Santy', 'Sandy', '2022-08-02')
+<<<<<<< HEAD
 -- insert into `Friend` (Namefrie, Linkad, Dateadd) values ('Lotty', 'Carl', '2022-08-02')
 -- insert into `Friend` (Namefrie, Linkad, Dateadd) values ('Cobby', 'Carl', '2022-08-02')
 -- insert into `Friend` (Namefrie, Linkad, Dateadd) values ('Cobby', 'Sandy', '2022-08-02')
+=======
+>>>>>>> b06f06eb24ceab5c2cd954f2ad59adb772dc2f03
 -- create table `Publish` (id int auto_increment, Linkpub nvarchar(100), Infopub nvarchar(100), primary key(id)); 
 -- insert into `Publish` (Linkpub, Infopub) values ('Samantus', 'live stream TV')
 -- insert into `Publish` (Linkpub, Infopub) values ('Samuel', 'Fight on street')
 -- insert into `Publish` (Linkpub, Infopub) values ('Sandy', 'random pool')
+<<<<<<< HEAD
 -- select Namefrie, count(Namefrie) from `Friend` where Linkad = 'Samuel'
  -- SELECT Namefrie, count(Namefrie) from `Friend` where Linkad = 'Samuel'
 
@@ -51,3 +55,6 @@
 -- insert into `Notepad` (Namenot, Infonot, Datenot) values ('Rectus', 'Fight sword', '2020-09-29')
 -- insert into `Notepad` (Namenot, Infonot, Datenot) values ('Tesuroo', 'Book of dead', '2021-12-12')
 
+=======
+ select Namefrie, count(Namefrie) from `Friend` where Linkad = 'Samuel'
+>>>>>>> b06f06eb24ceab5c2cd954f2ad59adb772dc2f03

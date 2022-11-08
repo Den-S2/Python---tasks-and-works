@@ -1,0 +1,20 @@
+-- create database Basket; use Basket;
+-- create table `Auth` (id int auto_increment, Login nvarchar(100), Passwd nvarchar(100), primary key(id));
+-- insert into `Auth` (Login, Passwd) values ('Asergood', 'aass23ss2')
+-- insert into `Auth` (Login, Passwd) values ('Byend', 'dada24wd3')
+-- insert into `Auth` (Login, Passwd) values ('Lotus', 'nene45ad2')
+-- insert into `Auth` (Login, Passwd) values ('Dekarshow', 'atac43er4')
+-- create table `Bask` (id int auto_increment, Nameprod nvarchar(100), Infoprod nvarchar(100), Costprod double, primary key(id)); 
+-- insert into `Bask` (Nameprod, Infoprod, Costprod) values ('Stinger', 'fly dron type-F', '15135.02')
+-- insert into `Bask` (Nameprod, Infoprod, Costprod) values ('Xiaomi', 'phone', '9135.02')
+-- insert into `Bask` (Nameprod, Infoprod, Costprod) values ('Apple', 'staff production', '46435.02')
+-- create table `Record` (id int auto_increment, Nameplrec nvarchar(100), Namerec nvarchar(100), Placerec int, primary key(id));
+-- insert into `Record` (Nameplrec, Namerec, Placerec) values ('Jossy','race', '1')
+-- insert into `Record` (Nameplrec, Namerec, Placerec) values ('Vampy','race', '14')
+-- insert into `Record` (Nameplrec, Namerec, Placerec) values ('Jaffer','race', '7')
+-- create table `News` (id int auto_increment, Namenew nvarchar(100), Infonew nvarchar(100), Datenew date, primary key(id));
+-- insert into `News` (Namenew, Infonew, Datenew) values ('Jasssd','nobody info', '2022-10-22')
+-- insert into `News` (Namenew, Infonew, Datenew) values ('Bonny','nothing info', '2022-11-02')
+-- insert into `News` (Namenew, Infonew, Datenew) values ('Deroos','naassd info', '2022-10-29')
+-- select Login, Passwd from Auth where Login = 'Asergood'
+SELECT * FROM `News` where Datenew >= '2022-10-29'

@@ -1,0 +1,55 @@
+-- create database Hospital; use Hospital;
+-- create table `Depart` (id int auto_increment, Building int, Financing double, Namdep nvarchar(100), primary key(id));
+-- insert into `Depart` (Building, Financing, Namdep) values ('1','1000.0', 'NamedepA')
+-- insert into `Depart` (Building, Financing, Namdep) values ('2','2500.0', 'NamedepB')
+-- insert into `Depart` (Building, Financing, Namdep) values ('3','4000.0', 'NamedepC')
+-- insert into `Depart` (Building, Financing, Namdep) values ('4','5500.0', 'NamedepD')
+-- insert into `Depart` (Building, Financing, Namdep) values ('5','6000.0', 'NamedepE')
+-- select * from hospital.depart
+-- create table `Diseases` (id int auto_increment, Namdis nvarchar(100), Severity int(100), primary key(id));
+-- insert into `Diseases` (Namdis, Severity) values ('Pneumonia','5')
+-- insert into `Diseases` (Namdis, Severity) values ('Bronchitis','4')
+-- insert into `Diseases` (Namdis, Severity) values ('Malaria','8')
+-- insert into `Diseases` (Namdis, Severity) values ('Osteochondrosis','9')
+-- insert into `Diseases` (Namdis, Severity) values ('Tuberculosis','10')
+-- select * from hospital.diseases
+-- create table `Doctors` (id int auto_increment, Namdoc nvarchar(100), Surndoc nvarchar(100), Salary double, Phone char(100), primary key(id));
+-- insert into `Doctors` (Namdoc, Surndoc, Salary, Phone) values ('Adam','Jenson','5000','13513515')
+-- insert into `Doctors` (Namdoc, Surndoc, Salary, Phone) values ('Sam','Rodriguez','6500','19512985')
+-- insert into `Doctors` (Namdoc, Surndoc, Salary, Phone) values ('Ada','Wong','7500','11219782')
+-- insert into `Doctors` (Namdoc, Surndoc, Salary, Phone) values ('Antony','Star','10500','17621783')
+-- insert into `Doctors` (Namdoc, Surndoc, Salary, Phone) values ('Bully','Butcher','12500','18394582')
+-- select * from hospital.doctors
+-- create table `Examinations` (id int auto_increment,namexa nvarchar(100), DayofWeek int(7), StartTime time, Endtime time, primary key(id));
+-- insert into `Examinations` (namexa, DayofWeek, StartTime, Endtime) values ('PneumoniaExa','1','09:10','18:30')
+-- insert into `Examinations` (namexa, DayofWeek, StartTime, Endtime) values ('BronchitisExa','2','09:10','18:30')
+-- insert into `Examinations` (namexa, DayofWeek, StartTime, Endtime) values ('MalariaExa','3','09:10','18:30')
+-- insert into `Examinations` (namexa, DayofWeek, StartTime, Endtime) values ('MalariaExa','3','12:10','18:30')
+-- insert into `Examinations` (namexa, DayofWeek, StartTime, Endtime) values ('OsteochondrosisExa','4','09:10','18:30')
+-- insert into `Examinations` (namexa, DayofWeek, StartTime, Endtime) values ('TuberculosisExa','5','09:10','18:30')
+-- select * from hospital.examinations
+-- create table `Wards` (id int auto_increment, Building int(5), Floor int, Nameward nvarchar(20), primary key(id));
+-- insert into `Wards` (Building, Floor, Nameward) values ('1','1', 'Pneumoni')
+-- insert into `Wards` (Building, Floor, Nameward) values ('2','1', 'Bronchiti')
+-- insert into `Wards` (Building, Floor, Nameward) values ('3','2', 'Malari')
+-- insert into `Wards` (Building, Floor, Nameward) values ('4','3', 'Osteochondrosi')
+-- insert into `Wards` (Building, Floor, Nameward) values ('5','4', 'Tuberculosi')
+-- insert into `Wards` (Building, Floor, Nameward) values ('4','1', 'Osteochondrosi2')
+-- insert into `Wards` (Building, Floor, Nameward) values ('5','1', 'Tuberculosi2')
+-- select * from hospital.wards
+-- select Namdoc, Phone from hospital.doctors
+-- select distinct Floor from hospital.wards
+-- select Namdis, Severity from hospital.diseases
+-- select Building as Build, Floor as 'Floor number', Nameward as Cabinet from hospital.wards;
+-- select Namdep from hospital.depart where Building = 5 and Financing < 30000
+-- select Namdep from hospital.depart where Building = 3 and Financing between 2000 and 15000
+-- select Nameward from hospital.wards where Building = 5 or Building = 4 and Floor = 1
+-- select Namdep, Building, Financing from hospital.depart where Building = 3 and Financing < 11000
+-- select Surndoc from hospital.doctors where Salary > 5000
+-- select Surndoc from hospital.doctors where Salary > 500*3
+-- select distinct namexa from hospital.examinations where DayofWeek between 1 and 3 and StartTime = '12:10'
+-- select Namdep, Building from hospital.depart where Building = 1 or Building = 3
+-- select Namdis from hospital.diseases where Severity > 2
+-- select Namdep from hospital.depart where Building = 2 or Building > 3
+-- select Namdep from hospital.depart where Building = 1 or Building = 3
+-- select Surndoc from hospital.doctors where (select locate('B', Surndoc))
