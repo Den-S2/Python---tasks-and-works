@@ -1,5 +1,5 @@
 # Python---tasks-and-works
-<h3> __Python's homework or practic (bold)__
+<h3> __Python's homework or practic (bold)__ </h3>
 
 --------------------------------------
 
