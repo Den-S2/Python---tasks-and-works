@@ -1,5 +1,5 @@
 # Python---tasks-and-works
-# __Python's homework or practic (bold)__
+> __Python's homework or practic (bold)__
 ##module №1 "Python Starter"
 Lesson №1 "Introduction to Python"
 Homework task №1 and №2
