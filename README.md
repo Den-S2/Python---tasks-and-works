@@ -42,7 +42,7 @@
     
 --------------------------------------
 
-<h3> 002_Modul - Cycle, Branching </h3>
+<h3> 002_Modul - Loop, Branching </h3>
 
 - First file
 
