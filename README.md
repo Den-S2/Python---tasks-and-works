@@ -775,4 +775,7 @@
     - Завдання 1
     > Create telegram bot with calculator and count of words and symbols
     
+    - Завдання 2
+    > Add function telegram bot of advanced features words and symbols
+    
 --------------------------------------
