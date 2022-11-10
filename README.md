@@ -2,7 +2,7 @@
 
 --------------------------------------
 
-<h3> Modul 1 - Intput </h3>
+<h3> 001_Modul 1 - Intput </h3>
 
 - First file
 
@@ -42,7 +42,7 @@
     
 --------------------------------------
 
-<h3> Modul 2 - Cycle, Branching </h3>
+<h3> 002_Modul - Cycle, Branching </h3>
 
 - First file
 
@@ -151,7 +151,7 @@
 
 --------------------------------------
 
-<h3> Modul 3 - Strings, lists </h3>
+<h3> 003_Modul - Strings, lists </h3>
 
 - First file
 
@@ -203,7 +203,7 @@
 
 --------------------------------------
 
-<h3> Modul 4 - Sort and search </h3>
+<h3> 004_Modul - Sort and search </h3>
 
 - First file
 
@@ -248,7 +248,7 @@
 
 --------------------------------------
 
-<h3> Modul 5 - Tuples, dictionaries and sets </h3>
+<h3> 005_Modul - Tuples, dictionaries and sets </h3>
 
 - First file
 
@@ -297,7 +297,7 @@
 
 --------------------------------------
 
-<h3> Modul 6 - Function </h3>
+<h3> 006_Modul - Function </h3>
 
 - First file
 
@@ -398,7 +398,7 @@
  
 --------------------------------------
 
-<h3> Modul 7 - Exceptions </h3>
+<h3> 007_Modul - Exceptions </h3>
 
 - First file
 
@@ -417,7 +417,7 @@
 
 --------------------------------------
 
-<h3> Modul 8 - File </h3>
+<h3> 008_Modul - File </h3>
 
 - First file
 
@@ -486,7 +486,7 @@
 
 --------------------------------------
 
-<h3> Modul 10 - OOP </h3>
+<h3> 010_Modul - OOP </h3>
 
 - First file
 
@@ -546,7 +546,7 @@
 
 --------------------------------------
 
-<h3> Modul 12 - Data structures </h3>
+<h3> 012_Modul - Data structures </h3>
 
 - First file
 
@@ -567,7 +567,7 @@
 
 --------------------------------------
 
-<h3> Base - Work with BD! </h3>
+<h3> 013_Modul Base - Work with BD! </h3>
 
 - lesson2.sql file
 
@@ -768,7 +768,7 @@
 
 --------------------------------------
 
-<h3> Bot_telegram - create bot! </h3>
+<h3> 014_Modul Bot_telegram - create bot! </h3>
 
 - First file
     
