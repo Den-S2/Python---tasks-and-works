@@ -777,5 +777,10 @@
     
     - Завдання 2
     > Add function telegram bot of advanced features words and symbols
+   
+- Second file
+    
+    - Завдання 1
+    > Create telegram bot with button and authorization
     
 --------------------------------------
