@@ -498,6 +498,25 @@
 
     - Завдання 1,2,3
     > Парсинг level-2,3 посилання та зображення. Приклад в файлі mmarvel. 
+    
+- lesson3 file 
+
+    - Завдання 1
+    > Виконайте парсинг сайту Marvel (https://www.marvel.com/characters) - зберіть наступну інформацію про героїв  Marvel:
+    name,
+    link,
+    universe,
+    other aliases,
+    education,
+    place of origin,
+    identity,
+    known relatives.
+    збережіть інформацію у файлі TXT методами Python. Приклад в файлі lesson3-example.
+    
+- less-home-sh file
+
+    - Завдання 1
+    > з вашої особистої сторінки MyStat спарсити розклад заннять на тиждень. Приклад в файлі less-home-sh-example
 
 --------------------------------------
 
